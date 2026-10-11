@@ -1,0 +1,4 @@
+interface:
+  display_name: "기준과 격벽"
+  short_description: "복잡한 시스템 문제를 기준별로 분해하고 해법의 대가를 밝힙니다"
+  default_prompt: "Use $criteria-bulkhead to define this system problem, trace its causes and failure boundaries, and compare solution tradeoffs."

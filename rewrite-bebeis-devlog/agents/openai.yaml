@@ -1,0 +1,4 @@
+interface:
+  display_name: "개발로그 말투 교정"
+  short_description: "기술적 사실을 보존하며 bebeis의 평어체로 교정"
+  default_prompt: "$rewrite-bebeis-devlog 스킬을 사용해 이 개발로그를 내가 직접 쓴 것 같은 말투로 교정해줘."
