@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <!-- 토스식 막대 차트. 파랑(주인공)과 회색(비교 대상) 두 색만. 값은 막대 위에 직접. 제목은 결론 문장.
+       막대 높이 = 값 / 최댓값 * 300 (y 기준선 460). 증감 주석은 파란 작은 글씨 -->
+  <style>
+    text { font-family: Pretendard, "Toss Product Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .title { font-size: 26px; font-weight: 700; fill: #191F28; }
+    .leg   { font-size: 14px; fill: #4E5968; }
+    .val   { font-size: 16px; font-weight: 600; fill: #333D4B; }
+    .delta { font-size: 14px; font-weight: 600; fill: #3182F6; }
+    .x     { font-size: 14px; fill: #6B7684; }
+  </style>
+  <rect width="1000" height="560" fill="#F9FAFB"/>
+  <text x="500" y="64" class="title" text-anchor="middle">차트가 말하는 결론을 제목으로 써요</text>
+  <rect x="404" y="88" width="14" height="14" rx="4" fill="#3182F6"/><text x="426" y="100" class="leg">바꾼 뒤</text>
+  <rect x="510" y="88" width="14" height="14" rx="4" fill="#8B95A1"/><text x="532" y="100" class="leg">바꾸기 전</text>
+
+  <g stroke="#E5E8EB" stroke-width="1"><path d="M80 160 H940"/><path d="M80 260 H940"/><path d="M80 360 H940"/></g>
+  <path d="M80 460 H940" stroke="#B0B8C1" stroke-width="1.5"/>
+
+  <!-- 항목 1 -->
+  <rect x="150" y="280" width="56" height="180" rx="8" fill="#8B95A1"/><text x="178" y="270" class="val" text-anchor="middle">60</text>
+  <rect x="216" y="220" width="56" height="240" rx="8" fill="#3182F6"/><text x="244" y="210" class="val" text-anchor="middle">80</text>
+  <text x="244" y="186" class="delta" text-anchor="middle">+33%</text>
+  <text x="211" y="490" class="x" text-anchor="middle">항목 A</text>
+  <!-- 항목 2 -->
+  <rect x="440" y="250" width="56" height="210" rx="8" fill="#8B95A1"/><text x="468" y="240" class="val" text-anchor="middle">70</text>
+  <rect x="506" y="190" width="56" height="270" rx="8" fill="#3182F6"/><text x="534" y="180" class="val" text-anchor="middle">90</text>
+  <text x="534" y="156" class="delta" text-anchor="middle">+29%</text>
+  <text x="501" y="490" class="x" text-anchor="middle">항목 B</text>
+  <!-- 항목 3 -->
+  <rect x="730" y="310" width="56" height="150" rx="8" fill="#8B95A1"/><text x="758" y="300" class="val" text-anchor="middle">50</text>
+  <rect x="796" y="160" width="56" height="300" rx="8" fill="#3182F6"/><text x="824" y="150" class="val" text-anchor="middle">100</text>
+  <text x="824" y="126" class="delta" text-anchor="middle">+100%</text>
+  <text x="791" y="490" class="x" text-anchor="middle">항목 C</text>
+  <text x="940" y="530" class="x" text-anchor="end" style="font-size:12px;fill:#8B95A1">측정 조건이나 기간을 작게 적어요</text>
+</svg>

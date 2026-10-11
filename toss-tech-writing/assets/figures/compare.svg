@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680">
+  <!-- 카드형 좌우 비교 도식(한 글에 한 장까지). 제목·부제·결론 띠는 선택이라 지워도 된다. 결론 띠를 쓰면 본문·소제목과 다른 말로. 왼쪽=기존/문제(주황), 오른쪽=개선/해결(초록). 결론 띠=연파랑 -->
+  <style>
+    text { font-family: Pretendard, "Toss Product Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .title { font-size: 26px; font-weight: 700; fill: #191F28; }
+    .sub   { font-size: 15px; fill: #6B7684; }
+    .h     { font-size: 17px; font-weight: 700; }
+    .hs    { font-size: 15px; }
+    .ct    { font-size: 15px; font-weight: 700; fill: #333D4B; }
+    .cs    { font-size: 13px; fill: #6B7684; }
+    .band  { font-size: 15px; font-weight: 700; fill: #1B64DA; }
+  </style>
+  <rect width="1000" height="680" fill="#E5E8EB"/>
+  <rect x="36" y="36" width="928" height="608" rx="24" fill="#FFFFFF"/>
+  <text x="72" y="96" class="title">결론을 한 문장으로 쓴 제목이 들어가요</text>
+  <text x="72" y="126" class="sub">무엇을 비교하는 그림인지 한 줄로 설명합니다</text>
+
+  <!-- 왼쪽: 기존 / 문제 -->
+  <rect x="72" y="156" width="412" height="388" rx="18" fill="#FFF3E0"/>
+  <text x="96" y="194" class="h" fill="#C26A00">기존 방식</text>
+  <text x="96" y="218" class="hs" fill="#C26A00">무엇이 문제였는지 한 줄</text>
+  <rect x="96" y="238" width="364" height="64" rx="12" fill="#FFFFFF"/>
+  <text x="116" y="266" class="ct">1단계에서 일어나는 일</text>
+  <text x="116" y="288" class="cs">짧은 보충 설명</text>
+  <path d="M278 302 v20" stroke="#8B95A1" stroke-width="2"/><path d="M272 316 l6 8 l6 -8" fill="none" stroke="#8B95A1" stroke-width="2"/>
+  <rect x="96" y="326" width="364" height="64" rx="12" fill="#FFFFFF"/>
+  <text x="116" y="354" class="ct">2단계에서 일어나는 일</text>
+  <text x="116" y="376" class="cs">짧은 보충 설명</text>
+  <path d="M278 390 v20" stroke="#8B95A1" stroke-width="2"/><path d="M272 404 l6 8 l6 -8" fill="none" stroke="#8B95A1" stroke-width="2"/>
+  <rect x="96" y="414" width="364" height="56" rx="12" fill="#FFE2BC"/>
+  <text x="278" y="448" class="ct" fill="#A35A00" text-anchor="middle" style="fill:#A35A00">그래서 생기는 문제</text>
+
+  <!-- 오른쪽: 개선 / 해결 -->
+  <rect x="516" y="156" width="412" height="388" rx="18" fill="#E5F8EF"/>
+  <text x="540" y="194" class="h" fill="#028A54">바꾼 방식</text>
+  <text x="540" y="218" class="hs" fill="#028A54">무엇이 달라졌는지 한 줄</text>
+  <rect x="540" y="238" width="364" height="64" rx="12" fill="#FFFFFF"/>
+  <text x="560" y="266" class="ct">1단계에서 일어나는 일</text>
+  <text x="560" y="288" class="cs">짧은 보충 설명</text>
+  <path d="M722 302 v20" stroke="#8B95A1" stroke-width="2"/><path d="M716 316 l6 8 l6 -8" fill="none" stroke="#8B95A1" stroke-width="2"/>
+  <rect x="540" y="326" width="364" height="64" rx="12" fill="#FFFFFF"/>
+  <text x="560" y="354" class="ct">2단계에서 일어나는 일</text>
+  <text x="560" y="376" class="cs">짧은 보충 설명</text>
+  <path d="M722 390 v20" stroke="#8B95A1" stroke-width="2"/><path d="M716 404 l6 8 l6 -8" fill="none" stroke="#8B95A1" stroke-width="2"/>
+  <rect x="540" y="414" width="364" height="56" rx="12" fill="#C8F0DC"/>
+  <text x="722" y="448" class="ct" text-anchor="middle" style="fill:#027A4A">그래서 얻은 결과</text>
+
+  <!-- 결론 띠 -->
+  <rect x="72" y="568" width="856" height="52" rx="14" fill="#E8F3FF"/>
+  <text x="500" y="600" class="band" text-anchor="middle">그림 한 장으로 전하고 싶은 결론 문장이에요</text>
+</svg>

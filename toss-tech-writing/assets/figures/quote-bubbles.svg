@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <!-- 사용자·동료의 말. 연회색 바탕, 동그란 아바타(이니셜이나 직군) + 흰 말풍선.
+       실명 대신 "인터뷰 참여자 A", "Product Designer"처럼 쓴다. 말은 재료에 있는 원문 그대로 -->
+  <style>
+    text { font-family: Pretendard, "Toss Product Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .who { font-size: 15px; fill: #6B7684; }
+    .say { font-size: 20px; fill: #191F28; }
+    .av  { font-size: 18px; font-weight: 700; fill: #FFFFFF; }
+  </style>
+  <rect width="1000" height="520" fill="#F2F4F6"/>
+
+  <circle cx="110" cy="110" r="34" fill="#8B95A1"/><text x="110" y="117" class="av" text-anchor="middle">A</text>
+  <text x="164" y="80" class="who">인터뷰 참여자 A</text>
+  <rect x="164" y="92" width="640" height="64" rx="20" fill="#FFFFFF"/>
+  <text x="192" y="132" class="say">사용자가 실제로 한 말을 그대로 옮겨요</text>
+
+  <circle cx="110" cy="260" r="34" fill="#B0B8C1"/><text x="110" y="267" class="av" text-anchor="middle">B</text>
+  <text x="164" y="230" class="who">인터뷰 참여자 B</text>
+  <rect x="164" y="242" width="560" height="64" rx="20" fill="#FFFFFF"/>
+  <text x="192" y="282" class="say">비슷한 말이 반복될 때 두세 개를 모아요</text>
+
+  <circle cx="110" cy="410" r="34" fill="#3182F6"/><text x="110" y="417" class="av" text-anchor="middle">C</text>
+  <text x="164" y="380" class="who">인터뷰 참여자 C</text>
+  <rect x="164" y="392" width="700" height="64" rx="20" fill="#E8F3FF"/>
+  <text x="192" y="432" class="say" style="fill:#1B64DA">가장 중요한 한마디 하나만 파랗게</text>
+</svg>

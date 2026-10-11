@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <!-- 카드형 단계 흐름 도식(제목·부제·결론 띠는 선택, 지우면 높이를 줄인다). 파란 번호 원 + 흰 카드. 강조할 단계 하나만 연파랑 면으로 바꾼다 -->
+  <style>
+    text { font-family: Pretendard, "Toss Product Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .title { font-size: 26px; font-weight: 700; fill: #191F28; }
+    .sub   { font-size: 15px; fill: #6B7684; }
+    .num   { font-size: 15px; font-weight: 700; fill: #FFFFFF; }
+    .ct    { font-size: 16px; font-weight: 700; fill: #333D4B; }
+    .cs    { font-size: 13px; fill: #6B7684; }
+    .band  { font-size: 15px; font-weight: 700; fill: #1B64DA; }
+  </style>
+  <rect width="1000" height="420" fill="#E5E8EB"/>
+  <rect x="36" y="36" width="928" height="348" rx="24" fill="#FFFFFF"/>
+  <text x="72" y="96" class="title">흐름 전체를 요약하는 한 문장</text>
+  <text x="72" y="126" class="sub">어디서 시작해 어디서 끝나는지 한 줄로 설명합니다</text>
+
+  <g>
+    <rect x="72" y="160" width="196" height="120" rx="16" fill="#F2F4F6"/>
+    <circle cx="100" cy="190" r="14" fill="#3182F6"/><text x="100" y="195" class="num" text-anchor="middle">1</text>
+    <text x="88" y="236" class="ct">단계 이름</text>
+    <text x="88" y="260" class="cs">무엇을 하는지 짧게</text>
+  </g>
+  <path d="M272 220 h22" stroke="#B0B8C1" stroke-width="2"/><path d="M288 214 l8 6 l-8 6" fill="none" stroke="#B0B8C1" stroke-width="2"/>
+  <g>
+    <rect x="300" y="160" width="196" height="120" rx="16" fill="#F2F4F6"/>
+    <circle cx="328" cy="190" r="14" fill="#3182F6"/><text x="328" y="195" class="num" text-anchor="middle">2</text>
+    <text x="316" y="236" class="ct">단계 이름</text>
+    <text x="316" y="260" class="cs">무엇을 하는지 짧게</text>
+  </g>
+  <path d="M500 220 h22" stroke="#B0B8C1" stroke-width="2"/><path d="M516 214 l8 6 l-8 6" fill="none" stroke="#B0B8C1" stroke-width="2"/>
+  <g>
+    <rect x="528" y="160" width="196" height="120" rx="16" fill="#E8F3FF" stroke="#3182F6" stroke-width="2"/>
+    <circle cx="556" cy="190" r="14" fill="#3182F6"/><text x="556" y="195" class="num" text-anchor="middle">3</text>
+    <text x="544" y="236" class="ct" style="fill:#1B64DA">이번에 바꾼 단계</text>
+    <text x="544" y="260" class="cs">핵심 변화 한 줄</text>
+  </g>
+  <path d="M728 220 h22" stroke="#B0B8C1" stroke-width="2"/><path d="M744 214 l8 6 l-8 6" fill="none" stroke="#B0B8C1" stroke-width="2"/>
+  <g>
+    <rect x="756" y="160" width="172" height="120" rx="16" fill="#F2F4F6"/>
+    <circle cx="784" cy="190" r="14" fill="#3182F6"/><text x="784" y="195" class="num" text-anchor="middle">4</text>
+    <text x="772" y="236" class="ct">단계 이름</text>
+    <text x="772" y="260" class="cs">무엇을 하는지 짧게</text>
+  </g>
+
+  <rect x="72" y="308" width="856" height="52" rx="14" fill="#E8F3FF"/>
+  <text x="500" y="340" class="band" text-anchor="middle">이 흐름에서 독자가 기억할 한 가지</text>
+</svg>

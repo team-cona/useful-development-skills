@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+  <!-- 틀 없는 단순 도식(기본값). 연회색 바탕 한 장, 짧은 이름표 제목(선택), 회색 박스 + 강조 하나만 파랑.
+       분기 화살표에는 조건을 적는다. 결론 문장은 본문에 쓰고 그림에는 넣지 않는다 -->
+  <style>
+    text { font-family: Pretendard, "Toss Product Sans", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .label { font-size: 20px; font-weight: 700; fill: #4E5968; }
+    .box   { font-size: 19px; font-weight: 700; fill: #333D4B; }
+    .boxs  { font-size: 15px; fill: #6B7684; }
+    .hl    { font-size: 19px; font-weight: 700; fill: #FFFFFF; }
+    .cond  { font-size: 15px; fill: #6B7684; }
+  </style>
+  <rect width="1000" height="400" fill="#F2F4F6"/>
+  <text x="60" y="64" class="label">짧은 이름표 (선택)</text>
+
+  <rect x="60" y="170" width="220" height="96" rx="16" fill="#FFFFFF"/>
+  <text x="170" y="212" class="box" text-anchor="middle">시작 요소</text>
+  <text x="170" y="240" class="boxs" text-anchor="middle">짧은 보충</text>
+
+  <path d="M284 218 H372" stroke="#B0B8C1" stroke-width="2.5"/><path d="M364 211 l9 7 l-9 7" fill="none" stroke="#B0B8C1" stroke-width="2.5"/>
+
+  <rect x="380" y="170" width="240" height="96" rx="16" fill="#3182F6"/>
+  <text x="500" y="212" class="hl" text-anchor="middle">이번에 바꾼 요소</text>
+  <text x="500" y="240" class="boxs" text-anchor="middle" style="fill:#D6E8FF">핵심 동작 한 줄</text>
+
+  <!-- 분기: 위/아래 갈래 -->
+  <path d="M624 218 H680 V120 H732" fill="none" stroke="#B0B8C1" stroke-width="2.5"/><path d="M724 113 l9 7 l-9 7" fill="none" stroke="#B0B8C1" stroke-width="2.5"/>
+  <text x="690" y="108" class="cond">조건 A</text>
+  <path d="M624 218 H680 V316 H732" fill="none" stroke="#B0B8C1" stroke-width="2.5"/><path d="M724 309 l9 7 l-9 7" fill="none" stroke="#B0B8C1" stroke-width="2.5"/>
+  <text x="690" y="346" class="cond">조건 B</text>
+
+  <rect x="740" y="76" width="200" height="88" rx="16" fill="#E5F8EF"/>
+  <text x="840" y="128" class="box" text-anchor="middle" style="fill:#028A54">정상 결과</text>
+  <rect x="740" y="272" width="200" height="88" rx="16" fill="#FFEEEE"/>
+  <text x="840" y="324" class="box" text-anchor="middle" style="fill:#E42939">예외 결과</text>
+</svg>
